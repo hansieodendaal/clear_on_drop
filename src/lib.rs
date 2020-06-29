@@ -1,6 +1,7 @@
 #![cfg_attr(not(test), no_std)]
 #![cfg_attr(feature = "nightly", feature(asm, i128_type, specialization))]
 #![deny(missing_docs)]
+#![feature(llvm_asm)]
 
 //! Helpers for clearing sensitive data on the stack and heap.
 //!
